@@ -1,0 +1,19 @@
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  /*Primary*/
+
+  --Red: hsl(0, 100%, 74%);
+  --Green: hsl(154, 59%, 51%);
+
+  /*Accent*/
+
+  --blue: hsl(248, 32%, 49%);
+
+  /*neutral*/
+
+  --dark-blue: hsl(249, 10%, 26%);
+  --grayish-blue: hsl(246, 25%, 77%);
+}

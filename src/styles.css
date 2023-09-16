@@ -17,3 +17,7 @@
   --dark-blue: hsl(249, 10%, 26%);
   --grayish-blue: hsl(246, 25%, 77%);
 }
+
+body {
+  background-color: var(--red);
+}

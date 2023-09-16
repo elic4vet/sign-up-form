@@ -47,3 +47,19 @@ input {
   font-weight: 700;
   color: var(--dark-blue);
 }
+
+.left-content {
+  display: flex;
+  flex-direction: column;
+  float: left;
+}
+.right-content {
+  float: right;
+  display: flex;
+  flex-direction: column;
+}
+
+.attribution {
+  display: flex;
+  flex-direction: column;
+}

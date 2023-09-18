@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-
+  font-weight: 400;
   /*Primary*/
 
   --Red: hsl(0, 100%, 74%);
@@ -21,6 +21,11 @@
 
 body {
   background-color: var(--Red);
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card {
@@ -42,10 +47,11 @@ input {
   border-radius: 5px;
   margin: 0 auto;
   padding: 10px;
-
-  font-size: 1.2rem;
-  font-weight: 700;
+  font-size: 14px;
+  font-weight: 800;
   color: var(--dark-blue);
+  border: 2px solid var(--grayish-blue);
+  font-family: "Poppins", sans-serif;
 }
 
 #name,
@@ -60,15 +66,25 @@ input {
   margin-bottom: 30px;
 }
 
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 .left-content {
   display: flex;
   flex-direction: column;
-  float: left;
+  color: white;
+  margin-top: 160px;
+  margin-left: 20px;
+  padding: 0 40px 0 160px;
+  width: 600px;
 }
 .right-content {
-  float: right;
   display: flex;
   flex-direction: column;
+  color: white;
+  width: 600px;
 }
 
 .attribution {
@@ -82,6 +98,7 @@ input {
   border-radius: 5px;
   padding: 10px;
   text-align: center;
+  width: 420px;
 }
 
 .submit {
@@ -101,4 +118,16 @@ input {
 .submit:hover {
   cursor: pointer;
   opacity: 0.8;
+}
+
+.light-text {
+  color: var(--grayish-blue);
+  font-size: 10px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.terms {
+  color: var(--Red);
+  font-weight: 700;
 }

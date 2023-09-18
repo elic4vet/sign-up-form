@@ -29,6 +29,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0;
 }
 
 .card {
@@ -38,8 +39,9 @@ body {
   height: 450px;
   background-color: white;
   border-radius: 10px;
-  padding-right: 40px;
-  padding-left: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: -13px;
 }
 
 input:focus {
@@ -99,9 +101,12 @@ input {
   color: white;
   background-color: var(--blue);
   border-radius: 5px;
+  width: 400px;
   padding: 10px;
+  padding-left: 10px;
+  margin-left: -10px;
+  padding-right: 25px;
   text-align: center;
-  width: 420px;
 }
 
 .submit {
@@ -143,6 +148,14 @@ input {
     font-family: "Poppins", sans-serif;
   }
 
+  h1 {
+    font-size: 25px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
   .container {
     display: flex;
     flex-direction: column;
@@ -176,6 +189,7 @@ input {
     width: 300px;
     background-color: white;
     border-radius: 10px;
-    padding: 0;
+    padding-right: 10px;
+    padding-left: 10px;
   }
 }

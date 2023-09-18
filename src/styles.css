@@ -21,6 +21,9 @@
 
 body {
   background-color: var(--Red);
+  background-image: url(./assets/images/bg-intro-desktop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
   display: flex;

@@ -134,3 +134,48 @@ input {
   color: var(--Red);
   font-weight: 700;
 }
+
+@media (max-width: 768px) {
+  body {
+    background-image: url(./assets/images/bg-intro-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+  }
+
+  .left-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    margin: 0;
+    padding: 0;
+  }
+  .right-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    width: 300px;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 0;
+  }
+}

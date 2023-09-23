@@ -123,6 +123,7 @@ input {
   letter-spacing: 1px;
   font-weight: 600;
   font-size: 12px;
+  margin-top: 20px;
 }
 
 .submit:hover {

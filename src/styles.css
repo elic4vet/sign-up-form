@@ -47,6 +47,7 @@ body {
 
 input:focus {
   outline: none;
+  border: 2px solid var(--blue);
 }
 
 input {

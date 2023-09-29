@@ -1,5 +1,8 @@
 let button = document.querySelector(".submit");
+let input = document.querySelector(".input");
 
-button.addEventListener("click", function () {
+function handleClick() {
   console.log("button clicked");
-});
+}
+
+button.addEventListener("click", handleClick);
